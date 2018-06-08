@@ -1,0 +1,93 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif
+}
+
+#main-toolbar #activity-button {
+    background-image: url(../media/activity-icon.de211134.svg)
+}
+
+#main-toolbar #add-button {
+    background-image: url(../media/add.038e3f81.svg)
+}
+
+#main-toolbar #network-button {
+    background-image: url(../media/zoom-home.e0b71aee.svg)
+}
+
+#private-button {
+    background-image: url(../media/zoom-home.e0b71aee.svg)
+}
+
+#private-button, #shared-button {
+    width: 47px;
+    height: 47px;
+    margin: 4px 2px;
+    color: #fff;
+    color: transparent;
+    background-color: transparent;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 0;
+    border-radius: 5.5px
+}
+
+#shared-button {
+    background-image: url(/static/media/zoom-neighborhood.f884a7c0.svg)
+}
+
+.exercise-card {
+    width: 31%;
+    min-width: 240px;
+    margin: 1%;
+    border: 1px solid hsla(0, 0%, 63%, .2);
+    background: #fff;
+    border-radius: 0 0 2px 2px;
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12), 0 3px 1px -2px rgba(0, 0, 0, .2);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12), 0 3px 1px -2px rgba(0, 0, 0, .2)
+}
+
+.exercise-card-content {
+    padding: 16px
+}
+
+.exercise-title {
+    margin: 0
+}
+
+.delete-button {
+    background-color: #f44336;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.edit-button {
+    background-color: #008cba;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.play-button {
+    background-color: #4caf50;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.exercise-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+@media (max-width: 580px) {
+    .recipe-list {
+        display: block
+    }
+}
+
+/*# sourceMappingURL=main.7146619b.css.map*/
